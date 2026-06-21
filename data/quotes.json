@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "book": "1984",
+    "author": "George Orwell",
+    "quote": "Freedom is the freedom to say that two plus two make four.",
+    "tags": ["freedom"],
+    "dateAdded": "2026-06-21T12:00:00Z"
+  }
+]

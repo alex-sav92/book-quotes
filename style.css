@@ -1,0 +1,12 @@
+body {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial;
+}
+
+.quote {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
