@@ -17,13 +17,25 @@ async function loadQuotes() {
     quotes.forEach(q => {
 
         const div =
-            document.createElement("div");
+        document.createElement("div");
 
         div.className = "quote";
 
         div.innerHTML = `
-            <blockquote>${q.quote}</blockquote>
-            <p>${q.book} — ${q.author}</p>
+            <blockquote>
+                “${q.quote}”
+            </blockquote>
+
+            <div class="meta">
+                <strong>${q.book}</strong>
+                — ${q.author}
+            </div>
+
+            <div class="tags">
+                ${(q.tags || []).map(tag =>
+                    `<span class="tag">${tag}</span>`
+                ).join("")}
+            </div>
         `;
 
         container.appendChild(div);
