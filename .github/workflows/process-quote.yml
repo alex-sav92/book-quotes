@@ -1,0 +1,38 @@
+name: Process Quote
+
+on:
+  issues:
+    types: [opened]
+permissions:
+    contents: write
+    
+jobs:
+  process:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Process issue into quote
+        run: node scripts/addQuote.js
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+
+      - name: Commit changes
+        run: |
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+
+            git add data/quotes.json
+
+            git diff --cached --quiet && exit 0
+
+            git commit -m "Add quote: $ISSUE_TITLE"
+            git push
