@@ -1,27 +1,5 @@
 [
   {
-    "id": 1782125237383,
-    "book": "Pisica Mea Iugoslavia",
-    "author": "Pajtim Statovci",
-    "quote": "Pamantul nu ne mai incape rautatea.",
-    "tags": [
-      "history",
-      "queer"
-    ],
-    "dateAdded": "2026-06-22T10:47:01.174Z"
-  },
-  {
-    "id": 1782033314074,
-    "book": "Pisica Mea Iugoslavia",
-    "author": "Pajtim Statovci",
-    "quote": "Pamantul nu ne mai incape răutatea.",
-    "tags": [
-      "history",
-      "queer"
-    ],
-    "dateAdded": "2026-06-21T09:15:01.851Z"
-  },
-  {
     "id": 1,
     "book": "1984",
     "author": "George Orwell",
