@@ -12,11 +12,12 @@
   },
   {
     "id": 1,
-    "book": "1984",
-    "author": "George Orwell",
-    "quote": "Freedom is the freedom to say that two plus two make four.",
+    "book": "Liberă",
+    "author": "Lea Ypi",
+    "quote": "Dar eu nu voiam să uit. Nu e că mă simțeam nostalgică. Nu e că îmi romanțam copilăria. Nu e că acele concepte cu care crescusem erau atât de adânc înrădăcinate în mine încât era imposibil să mă dezleg de ele. Dar, dacă exista o lecție pe care s-o fi învățat din istoria familiei și a țării mele, aceea era că oamenii nu fac istoria în circumstanțele alese de ei. E ușor de zis: ”ceea ce ați avut voi nu a fost lucrul adevărat”, făcând referire la socialism sau la liberalism, la orice amestec complex de idei și realitate. Ne eliberează de povara responsabilității. Nu mai suntem complici la tragediile morale în numele marilor idei și nu trebuie să reflectăm, să ne cerem scuze sau să învățăm din ele.",
     "tags": [
-      "freedom"
+      "history",
+      "biography"
     ],
     "dateAdded": "2026-06-21T12:00:00Z"
   }
